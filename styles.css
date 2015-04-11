@@ -1,1 +1,70 @@
+body {
+	font-family: sans-serif;
+	padding: 30px 40px 30px 40px;
+}
+a {
+	text-decoration: none;
+	color: #0D48AA;
+}
 
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+}
+
+.top {
+}
+
+p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.logolinks {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.logo {
+	margin: 10px 10px 10px 10px;
+	height: 170px;
+}
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: gray;
+	border-color: gray;
+}
